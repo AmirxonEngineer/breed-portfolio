@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/shared.css">
   <link rel="stylesheet" href="./css/main.css">
   <title>Bred portfolio</title>
 </head>
 <body>
   <!-- Main header -->
-<div class="container">
   <div class="main-header">
+   <div class="container">
     <div class="main-header__brand">
       <a href="index.html">
         <img src="./images/logo.png" alt="logo">
@@ -18,10 +20,13 @@
     <div class="main-navigation">
       <ul class="main-navigation__items">
         <li class="main-navigation__item">
-          <a href="#">Asosiy</a>
+          <a href="./index.html"> Asosiy </a>
         </li>
         <li class="main-navigation__item">
-          <a href="#">Men haqimda</a>
+          <a href="main-section"> Men haqimda </a>
+        </li>
+        <li class="main-navigation__item">
+          <a href="services"> Xizmatlar </a>
         </li>
         <li class="main-navigation__item">
           <a href="#">Blog</a>
@@ -30,7 +35,7 @@
           <a href="#">Portfolio</a>
         </li>
         <li class="main-navigation__item">
-          <a href="#">Contact</a>
+          <a href="./contact.html">Contact</a>
         </li>
       </ul>
     </div>
@@ -38,15 +43,24 @@
 </div>
 <!-- / Main header -->
  <!-- Main section -->
-  <section id="main-section" class="main-section">
-    <div class="main-section__info">
-      <h4 class="main-section__welcom">Salom hammaga</h4>
-      <h1 class="main-section__introduction">I am Amirxon</h1>
-      <h3 class="main-section__position">Dasturchi & Muhandis</h3>
-      <button type="button" class="main-section__action">Natija</button>
+  <div class="main-banner">
+    <div class="container">
+      <section id="main-section" class="main-section">
+        <div class="main-section__info">
+          <h4 class="main-section__welcome to-uppercase ">Salom hammaga</h4>
+          <h1 class="main-section__introduction to-uppercase">I am Amirxon</h1>
+          <h3 class="main-section__position to-uppercase">Dasturchi & Muhandis</h3>
+          <div class="main-section__social-netwotks">
+            <a href="https://t.me/AmirxonXaitov">
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+          </div>
+          <button type="button" class="main-section__action to-uppercase button">Natija</button>
+        </div>
+        <div class="main-section__image"><img src="./images/home-right.png" alt="home-right"></div>
+      </section>
     </div>
-    <div class="main-section__image"><img src="./images/home-right.png" alt="home-right"></div>
-  </section>
+  </div>
   <!-- /Main section -->
   <!-- Statistics section -->
    <div class="container">
@@ -72,5 +86,85 @@
     </section>
    </div>
   <!-- /Statistics section -->
+  <!-- About me section -->
+   <div class="container">
+    <section class="about-me">
+      <div class="about-me__image">
+        <img src="./images/about-me.png" alt="about-me">
+      </div>
+      <div class="about-me__info">
+        <h5 class="section-subtitle">Men haqimda</h5>
+        <h3 class="section-title"> Dasturchi & Muhandis </h3>
+        <p class="about-me__description" >Men haqimda</p>
+        <button type="button" class="about-me__action button">CV ko'chirib olish</button>
+      </div>
+    </section>
+    <div class="clearfix"></div>
+  </div>
+  <!-- /About me section -->
+
+  <!-- Services -->
+   <div class="container">
+    <section class="services" id="services">
+    <h5 class="section-subtitle">
+      Mening xizmatlarim
+    </h5>
+    <h2 class="section-title">
+      Men taklif <br>
+      qiladigan xizmatlar
+    </h2>
+    <div class="services__cards">
+      <div class="service-card">
+        <img src="./images/33784865.png" alt="33784865" class="service-card__icon">
+        <h5 class="service-card__title">
+          Aiogram
+        </h5>
+        <p class="service-card__description">python aiogram</p>
+        <a href="#" class="service-card__li">Ko'roq</a>
+      </div>
+      <div class="service-card">
+        <img src="./images/33784865.png" alt="33784865" class="service-card__icon">
+        <h5 class="service-card__title">
+          Aiogram
+        </h5>
+        <p class="service-card__description">python aiogram</p>
+        <a href="#" class="service-card__li">Ko'roq</a>
+      </div>
+      <div class="service-card">
+        <img src="./images/33784865.png" alt="33784865" class="service-card__icon">
+        <h5 class="service-card__title">
+          Aiogram
+        </h5>
+        <p class="service-card__description">python aiogram</p>
+        <a href="#" class="service-card__li">Ko'roq</a>
+      </div>
+    </div>
+    </section>
+   </div>
+  <!--/ Services -->
+  <!--Footer-->
+  <footer class="footer">
+    <ul class="main-navigation__items">
+      <li class="main-navigation__item">
+        <a href="main-header"> Asosiy </a>
+      </li>
+      <li class="main-navigation__item">
+        <a href="main-section"> Men haqimda </a>
+      </li>
+      <li class="main-navigation__item">
+        <a href="services"> Xizmatlar </a>
+      </li>
+      <li class="main-navigation__item">
+        <a href="#">Blog</a>
+      </li>
+      <li class="main-navigation__item">
+        <a href="#">Portfolio</a>
+      </li>
+      <li class="main-navigation__item">
+        <a href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </footer>
+  <!--/Footer-->
 </body>
 </html>
