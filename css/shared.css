@@ -60,3 +60,49 @@ body {
   cursor: pointer;
   border-radius: 5px;
 }
+
+/**  Footer **/
+
+.footer {
+  padding: 50px 0;
+  background-color: #021017;
+  text-align: center;
+}
+
+.footer-navigation__item {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.footer-navigation__item a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social {
+display: inline-block;
+width: 45px;
+height: 45px;
+line-height: 45px;
+text-align: center;
+background: #ffffff;
+border-radius: 36px;
+color: #05364d;
+font-size: 16px;
+margin-right: 1rem;  
+}
+
+.footer__social a {
+  color: #021017;
+} 
+
+.footer__social :hover {
+  background-color: linear-gradient(90deg,#1345e6 0%, #ed239f 100%);
+}
+
+.footer__social:hover i{
+  color: white;
+}
+.footer__text {
+  color: #797979;
+}
